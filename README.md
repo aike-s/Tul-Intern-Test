@@ -7,7 +7,7 @@
 ## How I solved it
 1. Separate in two different parts the final task: create a function that reads the user input and another one that works with this input to return the desired data.
 2. I focus on the main function: highestValuePalindrome
-3. I made a small flowchart + pseudocode to understand how the program needed to be executed to work correctly
+3. I made a small flowchart + pseudocode to understand how the program needed to be executed to work correctly, something like this:
 ![My Image](palindrome_flowchart.jpg)
 4. I started writing code based on what I understood in the previous step while testing that the solutions I had thought of worked the way it needed to work.
 5. I gave my attention to the way the main function acquired its parameters, so I made an alternate function: read_input
@@ -19,8 +19,8 @@
 
 |  Function       | Description                                            
 |----------------|-------------------------------|
-|read_input|	Reads the input needed for the 			highestValuePalindrome function to execute           |
-|highestValuePalindrome          |Create a palindrome string representation          |
+|read_input() |	Reads the input needed for the 			highestValuePalindrome function to execute           |
+|highestValuePalindrome()          |Create a palindrome string representation          |
 
 
 
