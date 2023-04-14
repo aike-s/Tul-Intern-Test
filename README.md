@@ -20,7 +20,7 @@
 |  Function       | Description                                            
 |----------------|-------------------------------|
 |read_input() |	Reads the input needed for the 			highestValuePalindrome function to execute           |
-|highestValuePalindrome()          |Create a palindrome string representation          |
+|highestValuePalindrome(s, n, k)          |Create a palindrome string representation          |
 
 
 
@@ -44,6 +44,6 @@ $ python3 highest_value_palindrome.py
 	$ 3943
 	```
 4. Finally the function will return the representation of the highest achievable value or -1
-	```
-	$ 3993
-	```
+```
+$ 3993
+```
