@@ -1,4 +1,21 @@
 def highestValuePalindrome(s, n, k):
+    """Create a palindrome string representation
+    
+    Parameters
+    ----------
+    s : str
+        String representation of an integer
+    n : int
+        The length of the integer string
+    k : int
+        The maximum number of changes allowed
+    
+    Returns
+    -------
+    string
+        A string representation of the highest value achievable or -1
+    """
+
     center = None
 
     if n%2 != 0:
@@ -28,6 +45,8 @@ def highestValuePalindrome(s, n, k):
 
       
 def read_input():
+    """Reads the input needed for the highestValuePalindrome function to execute"""
+
     line = 0
     while True:
         line += 1
@@ -45,6 +64,4 @@ def read_input():
 
 
 if __name__ == "__main__":
-    #answer = highestValuePalindrome("2432", 4, 1)
-    #print(answer)
     read_input()
